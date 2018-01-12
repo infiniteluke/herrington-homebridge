@@ -1,0 +1,16 @@
+{
+  "name": "herrington-homebridge",
+  "version": "1.0.0",
+  "description": "internet stuff for my house",
+  "main": "index.js",
+  "author": "Luke Herrington <lherrington100@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "homebridge"
+  },
+  "dependencies": {
+    "homebridge": "^0.4.35",
+    "homebridge-neato": "^0.4.6"
+  }
+}
