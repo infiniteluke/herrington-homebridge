@@ -7,9 +7,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "homebridge"
+    "start": "NODE_ENV=production forever start ./node_modules/.bin/homebridge",
+    "stop": "forever stop ./node_modules/.bin/homebridge"
   },
   "dependencies": {
+    "forever": "^0.15.3",
     "homebridge": "^0.4.35",
     "homebridge-neato": "^0.4.6"
   }
