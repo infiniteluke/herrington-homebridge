@@ -1,6 +1,6 @@
 {
   "name": "herrington-homebridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "internet stuff for my house",
   "main": "index.js",
   "author": "Luke Herrington <lherrington100@gmail.com>",
