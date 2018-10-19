@@ -1,0 +1,16 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "{USERNAME}",
+    "port": 51826,
+    "pin": "{PIN}"
+  },
+  "description": "Homebridge for the Herrington Home",
+  "platforms": [
+    {
+      "platform": "NeatoVacuumRobot",
+      "email": "{EMAIL}",
+      "password": "{PASSWORD}"
+    }
+  ]
+}
